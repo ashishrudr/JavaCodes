@@ -35,7 +35,7 @@ public class ReadFromExcel {
 					  Iterator<Cell> cell = row.cellIterator();
 				while(cell.hasNext()) {
 					System.out.println(cell.next());
-					fout.write(5);
+					fout.write('c');
 					
 				} 
 				 }
